@@ -1,12 +1,15 @@
 {
-  "name": "de",
+  "name": "vue-template",
   "version": "0.1.0",
-  "private": true,
+  "private": "<%=private%>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "autor":"<%=author%>",
+  "description": "<%=description%>",
+  "license": "<%=license%>",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
